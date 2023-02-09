@@ -1,0 +1,52 @@
+.form{
+    width:40rem;
+    background:#eee;
+    aspect-ratio:1/1;
+    padding:4rem;
+    display:flex;
+    flex-direction: column;
+   border-radius: 1.2rem;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form__InputsWrapper{
+    display:flex;
+    flex-direction: column;
+    gap:4rem;
+}
+
+.Form__wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.form__search{
+    background: #A770EF; 
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color:#eee;
+    width:15rem;
+    height:5rem;
+    border-radius: 1.2rem;
+    transition: 0.5s;
+}
+
+.form__search:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 
+    0px 30px 60px -12px inset, 
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.formform__label{
+    font-size:300%;
+}
+
+.form__input{
+    border:none;
+    background: none;
+    outline: none;
+    border-bottom:0.2rem solid #A770EF;
+}
